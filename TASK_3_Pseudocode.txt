@@ -1,0 +1,15 @@
+function quicksort(array, left, right):
+    if left < right:
+        pivot_index = partition(array, left, right)
+        quicksort(array, left, pivot_index - 1)    # Sort left subarray
+        quicksort(array, pivot_index + 1, right)  # Sort right subarray
+
+function partition(array, left, right):
+    pivot = array[right - 1]  # Second-to-last element as pivot
+    i = left - 1
+    for j from left to right - 2:
+        if array[j] <= pivot:
+            i += 1
+            swap(array[i], array[j])  # Swap elements
+    swap(array[i + 1], array[right - 1])  # Place pivot in correct position
+    return i + 1  # Return pivot index
