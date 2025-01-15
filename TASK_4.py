@@ -1,5 +1,5 @@
 # Define the recursive function to check if a word is a palindrome
-def isPalindrome(word):
+de isPalindrome(word):
     # Base case: If the word has 0 or 1 character, it's a palindrome
     if len(word) <= 1:
         return True
