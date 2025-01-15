@@ -1,6 +1,6 @@
 # Define the quicksort function
 # This function sorts the array in-place using the quicksort algorithm
-def quicksort(array, left, right):
+de quicksort(array, left, right):
     if left < right:  # Proceed if there are elements to sort
         # Partition the array and get the pivot index
         pivot_index = partition(array, left, right)
