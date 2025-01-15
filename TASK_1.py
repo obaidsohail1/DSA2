@@ -1,4 +1,4 @@
-import random
+ random
 
 # 1a. Save the chessboard (8x8) into an appropriate variable/data structure and display it in your terminal.
 def create_chessboard():
