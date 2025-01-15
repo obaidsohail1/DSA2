@@ -2,7 +2,7 @@
 
 
 1. **Task Files**:
-   - `TASK_1.py`: Knight's Tour implementation with Backtracking and Las Vegas approaches.
+   - `TASK_1.py`: Knight's Tour implementation with Backtracking and Las Vegas approaches
    - `TASK_2.py`: Minimum Spanning Tree (MST) solution using Kruskal's Algorithm.
    - `TASK_3.py`: Implementation of an in-place Quicksort algorithm for sorting words alphabetically.
    - `TASK_3_Pseudocode.txt`: Pseudocode for the Quicksort algorithm.
