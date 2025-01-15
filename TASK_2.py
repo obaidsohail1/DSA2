@@ -1,4 +1,4 @@
-import networkx as nx
+impor networkx as nx
 import matplotlib.pyplot as plt
 
 # a. Depict the original graph
