@@ -1,4 +1,4 @@
-function quicksort(array, left, right):
+unction quicksort(array, left, right):
     if left < right:
         pivot_index = partition(array, left, right)
         quicksort(array, left, pivot_index - 1)    # Sort left subarray
